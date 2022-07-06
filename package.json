@@ -1,0 +1,43 @@
+{
+  "name": "simple-odata-server-lowdb",
+  "version": "1.0.0",
+  "description": "Adapter for node.js simple odata server using lowdb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --exit -R spec && standard"
+  },
+  "author": "RanAwaySuccessfully",
+  "license": "MIT",
+  "repository": "ranawaysuccessfully/node-simple-odata-server-lowdb",
+  "keywords": [
+    "OData",
+    "server",
+    "lowdb"
+  ],
+  "dependencies": {
+    "lowdb": "^3.0.0",
+    "mingo": "^6.0.6",
+    "nanoid": "^4.0.0"
+  },
+  "standard": {
+    "env": {
+      "mocha": true,
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "mocha": "^10.0.0",
+    "mongodb": "^3.0.1",
+    "should": "^13.2.1",
+    "simple-odata-server": "^1.0.0",
+    "standard": "^17.0.0",
+    "supertest": "^3.0.0"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ]
+}
