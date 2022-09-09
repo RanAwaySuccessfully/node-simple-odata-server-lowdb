@@ -41,8 +41,10 @@ odataServer
       db.data[coll] = [];
     }
 
-    cb(null, db.data[coll]);
-    db.write();
+    const hasPendingChanges = cb(null, db.data[coll]);
+    if (hasPendingChanges) {
+      db.write();
+    }
   }));
   
 createServer(odataServer.handle.bind(odataServer)).listen(1777);
