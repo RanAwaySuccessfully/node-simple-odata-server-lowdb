@@ -1,6 +1,6 @@
 {
   "name": "simple-odata-server-lowdb",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Adapter for node.js simple odata server using lowdb",
   "main": "index.js",
   "type": "module",
