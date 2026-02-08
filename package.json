@@ -18,7 +18,7 @@
   "dependencies": {
     "lowdb": "^3.0.0",
     "mingo": "^6.0.6",
-    "nanoid": "^4.0.0"
+    "nanoid": "^5.1.6"
   },
   "standard": {
     "env": {
